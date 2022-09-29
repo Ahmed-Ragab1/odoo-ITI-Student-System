@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+
+
+        <record id="iti_skill_action" model="ir.actions.act_window">
+            <field name="name">Skill</field>
+            <field name="res_model">iti.skill</field>
+        </record>
+        <menuitem id="iti_skill_menu" name="Skill" parent="iti_root" action="iti_skill_action"/>
+    </data>
+</odoo>
